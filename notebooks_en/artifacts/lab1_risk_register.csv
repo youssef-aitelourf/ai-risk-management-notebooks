@@ -1,0 +1,5 @@
+id,description,category,severity,likelihood,control,owner,priority
+R-02,Selection-rate gap between groups,Ethical,5,4,"Fairness audit, human review, documented criteria",Responsible AI lead,20
+R-01,Missing values and representation bias,Data,4,4,Pipeline imputation; monitor rates by group,Data owner,16
+R-03,Data and performance drift,Operational,4,3,"Monitoring, seuils d'alerte, revue périodique",MLOps owner,12
+R-04,Insufficiently explainable decision,Governance,4,3,"Understandable reasons, appeal procedure",Product owner,12

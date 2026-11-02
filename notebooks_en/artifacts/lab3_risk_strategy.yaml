@@ -1,0 +1,22 @@
+metadata:
+  project: SmartHire - AI risk strategy
+  date_generation: '2026-11-02'
+  status: Draft pending validation
+  scenario: Ranking gap, insufficient explainability, and no monitoring.
+risk_strategy:
+  Technical:
+  - Measure fairness gaps before every release
+  - Monitor drift and performance after deployment
+  - Provide understandable ranking reasons
+  Operational:
+  - Version the model, data, and parameters
+  - Maintain data lineage and change tracking
+  - Test an AI incident-response plan
+  Ethical:
+  - Audit bias across relevant populations
+  - Define fairness criteria with stakeholders
+  - Provide human review and an appeal route
+  Legal:
+  - Document the legal basis and applicable consent
+  - Assess automated decisions with significant effects
+  - Validate transparency and non-discrimination obligations

@@ -1,0 +1,22 @@
+metadata:
+  projet: SmartHire - stratégie de risque IA
+  date_generation: '2026-11-02'
+  statut: Brouillon à valider
+  scenario: Écart de classement, explicabilité insuffisante et absence de surveillance.
+strategie_risque:
+  Technique:
+  - Mesurer les écarts d'équité avant chaque version
+  - Surveiller dérive et performance après déploiement
+  - Fournir des raisons de classement compréhensibles
+  Opérationnel:
+  - Versionner modèle, données et paramètres
+  - Conserver la lignée des données et les changements
+  - Tester un plan de réponse aux incidents IA
+  Éthique:
+  - Auditer les biais sur des populations pertinentes
+  - Définir des critères d'équité avec les parties prenantes
+  - Prévoir une revue humaine et une voie de recours
+  Juridique:
+  - Documenter la base légale et le consentement applicable
+  - Évaluer les décisions automatisées à effet significatif
+  - Valider les obligations de transparence et de non-discrimination

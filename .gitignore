@@ -1,0 +1,10 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Temporary renderings and intermediate files
+tmp/
+
+# Source PDFs are intentionally kept local
+*.pdf

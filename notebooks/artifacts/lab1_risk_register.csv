@@ -1,0 +1,5 @@
+id,description,categorie,gravite,vraisemblance,controle,responsable,priorite
+R-02,Écart de taux de sélection entre groupes,Éthique,5,4,"Audit d'équité, revue humaine, critères documentés",Responsible AI lead,20
+R-01,Valeurs manquantes et biais de représentation,Données,4,4,Imputation dans pipeline; suivi des taux par groupe,Data owner,16
+R-03,Dérive des données et des performances,Opérationnel,4,3,"Monitoring, seuils d'alerte, revue périodique",MLOps owner,12
+R-04,Décision insuffisamment explicable,Gouvernance,4,3,"Motifs compréhensibles, procédure de recours",Product owner,12
